@@ -76,6 +76,8 @@ bool CStreamSearcher::searchText(std::wistream &in) const {
             }
         }
 
+        bufferPos += bufferLen;
+
         // At this point, if the buffer window should be offset,
         // then we should rewind
         if(!in.eof() && overlapChars > 0) {
