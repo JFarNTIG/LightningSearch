@@ -52,6 +52,7 @@
 | Class / Struct     | `UpperCamelCase`   | `CMainWindow`                  |
 | Function           | `lowerCamelCase`   | `createActions()`              |
 | Variable           | `lowerCamelCase`   | `fileSize`                     |
+| Member Variable    | `m_lowerCamelCase` | `m_matchText`                  |
 | Enum type          | `UpperCamelCase`   | `ErrorCode`                    |
 | Macro              | `ALL_CAPS_SNAKE`   | `MAX_BUFFER_SIZE`              |
 | Template parameter | `UpperCamelCase`   | `template<typename ValueType>` |
