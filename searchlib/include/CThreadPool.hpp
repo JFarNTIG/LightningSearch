@@ -20,7 +20,7 @@ public:
     : m_shouldTerminate(false)
     {
         for(size_t i = 0; i < numWorkers; ++i) {
-            m_workers.emplace_back(&workerThreadFunc, this);
+            m_workers.emplace_back(&CThreadPool::workerThreadFunc, this);
         }
     }
 
