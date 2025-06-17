@@ -76,10 +76,6 @@ void CSearchEngine::spawnEnumerateWorker(std::filesystem::path const enumPath) {
 
             paths.push_back(filePath);
 
-            // m_searchedFilesMutex.lock();
-            // m_searchedFilesSet.insert(p.path().wstring());
-            // m_searchedFilesMutex.unlock();
-
             m_totalFilesToSearch++;
 
             if(paths.size() > BATCH_SIZE) {
@@ -113,10 +109,6 @@ void CSearchEngine::spawnSearchWorker(std::vector<std::filesystem::path> fileLis
 
         for(auto &filePath : fileList) {
             m_totalFilesSearched++;
-
-            // m_searchedFilesMutex.lock();
-            // m_searchedFilesSet.erase(filePath.wstring());
-            // m_searchedFilesMutex.unlock();
 
             bool isMatch = matchesAllFilters(filePath);
 
