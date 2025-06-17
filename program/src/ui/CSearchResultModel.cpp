@@ -41,8 +41,8 @@ QVariant CSearchResultModel::headerData(int section,
 }
 
 
-QVariant CSearchResultModel::data(const QModelIndex& index, int role) const {
-    if (!index.isValid() || role != Qt::DisplayRole) {
+QVariant CSearchResultModel::data(QModelIndex const &index, int role) const {
+    if(!index.isValid() || role != Qt::DisplayRole) {
         return QVariant();
     }
 

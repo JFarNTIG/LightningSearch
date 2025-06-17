@@ -9,7 +9,7 @@
 // Qt MOC source file
 #include "ui/moc_CFilterBuildWidget.cpp"
 
-CFilterBuildWidget::CFilterBuildWidget(QWidget* parent)
+CFilterBuildWidget::CFilterBuildWidget(QWidget *parent)
     : QWidget(parent)
 {
     // Create combo box
@@ -42,9 +42,9 @@ CFilterBuildWidget::CFilterBuildWidget(QWidget* parent)
             this, &CFilterBuildWidget::onAddFilterClicked);
 
     // Lay out widgets
-    QVBoxLayout* mainLayout = new QVBoxLayout(this);
+    QVBoxLayout *mainLayout = new QVBoxLayout(this);
 
-    QHBoxLayout* comboLayout = new QHBoxLayout();
+    QHBoxLayout *comboLayout = new QHBoxLayout();
     comboLayout->addWidget(new QLabel(tr("Filter by:"), this));
     comboLayout->addWidget(m_filterTypeCombo);
 

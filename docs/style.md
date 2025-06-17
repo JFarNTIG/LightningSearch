@@ -52,6 +52,7 @@
 | Class / Struct     | `UpperCamelCase`   | `CMainWindow`                  |
 | Function           | `lowerCamelCase`   | `createActions()`              |
 | Variable           | `lowerCamelCase`   | `fileSize`                     |
+| Member Variable    | `m_lowerCamelCase` | `m_matchText`                  |
 | Enum type          | `UpperCamelCase`   | `ErrorCode`                    |
 | Macro              | `ALL_CAPS_SNAKE`   | `MAX_BUFFER_SIZE`              |
 | Template parameter | `UpperCamelCase`   | `template<typename ValueType>` |
@@ -159,7 +160,7 @@ Class names should be prefixed according to whether the class is an interface (`
 3. **Pull Requests:**
    * PR descriptions should be informative and clearly indicate the goals of the PR and testing status.
    * Title written in present or imperative tense.
-   * *Types*: `feat`, `fix`, `docs`, `refactor`, `test`, `ci`, `build`, `perf`.
+   * *Types*: `feat`, `fix`, `docs`, `refactor`, `test`, `ci`, `build`, `perf`, `misc`.
    * At least one approving review required; reviewers use GitHub Suggested Changes.
    * When creating a pull request, always use the PR template:
 

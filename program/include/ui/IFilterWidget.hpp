@@ -20,5 +20,5 @@ public:
      *
      * NOTE: The caller takes ownership of the returned filter object and is responsible for deleting it.
      */
-    virtual IFilter* createFilter() = 0;
+    virtual IFilter *createFilter() = 0;
 };
