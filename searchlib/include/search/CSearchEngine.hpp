@@ -59,7 +59,4 @@ private:
     std::atomic_int m_totalFilesToSearch;
     std::atomic_int m_totalFilesSearched;
     std::atomic_int m_totalMatches;
-
-    std::mutex m_searchedFilesMutex;
-    std::set<std::wstring> m_searchedFilesSet;
 };
