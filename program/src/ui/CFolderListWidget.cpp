@@ -29,8 +29,8 @@ CFolderListWidget::CFolderListWidget(QWidget *parent)
             this, &CFolderListWidget::onRemoveFolderClicked);
 
     // Layout
-    QVBoxLayout* mainLayout = new QVBoxLayout(this);
-    QHBoxLayout* buttonLayout = new QHBoxLayout();
+    QVBoxLayout *mainLayout = new QVBoxLayout(this);
+    QHBoxLayout *buttonLayout = new QHBoxLayout();
     
     buttonLayout->addWidget(m_addButton);
     buttonLayout->addWidget(m_removeButton);

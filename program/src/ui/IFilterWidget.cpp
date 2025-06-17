@@ -4,7 +4,7 @@
 // Qt MOC source file
 #include "ui/moc_IFilterWidget.cpp"
 
-IFilterWidget::IFilterWidget(QWidget* parent)
+IFilterWidget::IFilterWidget(QWidget *parent)
     : QWidget(parent)
 {
     // nothing to do
