@@ -160,7 +160,7 @@ Class names should be prefixed according to whether the class is an interface (`
 3. **Pull Requests:**
    * PR descriptions should be informative and clearly indicate the goals of the PR and testing status.
    * Title written in present or imperative tense.
-   * *Types*: `feat`, `fix`, `docs`, `refactor`, `test`, `ci`, `build`, `perf`.
+   * *Types*: `feat`, `fix`, `docs`, `refactor`, `test`, `ci`, `build`, `perf`, `misc`.
    * At least one approving review required; reviewers use GitHub Suggested Changes.
    * When creating a pull request, always use the PR template:
 
