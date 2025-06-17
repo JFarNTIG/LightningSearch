@@ -29,11 +29,11 @@ CFilterListWidget::CFilterListWidget(QWidget *parent)
             this, &CFilterListWidget::onRemoveFilterClicked);
 
     // Layout
-    QVBoxLayout* mainLayout = new QVBoxLayout(this);
+    QVBoxLayout *mainLayout = new QVBoxLayout(this);
     mainLayout->addWidget(m_filterBuildWidget);
     mainLayout->addWidget(m_filterListView);
 
-    QHBoxLayout* buttonLayout = new QHBoxLayout();
+    QHBoxLayout *buttonLayout = new QHBoxLayout();
     buttonLayout->addStretch();
     buttonLayout->addWidget(m_removeButton);
 
